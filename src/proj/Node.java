@@ -1,8 +1,9 @@
-class Node {
-    int data;
-    Node next;
+class Node<T> {
+    //Node class to represent each element 
+    T data;
+    Node<T> next;
 
-    public Node(int data) {
+    public Node(T data) {
         this.data = data;
         this.next = null;
     }
