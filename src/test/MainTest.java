@@ -20,8 +20,6 @@ public class MainTest {
     public void test1(){
         Main main = new Main();
 
-        //String holder =  "olleH";
-       // main.methodToTest();
         Assert.assertEquals("olleH", main.reverseString("Hello").toString());
     }
 
@@ -29,7 +27,6 @@ public class MainTest {
     public void test2(){
         Main main = new Main();
 
-       // main.methodToTest();
         Assert.assertEquals("elppa", main.reverseString("apple").toString());
     }
 
@@ -37,7 +34,6 @@ public class MainTest {
     public void test3(){
         Main main = new Main();
 
-       // main.methodToTest();
         Assert.assertEquals("ananab", main.reverseString("banana").toString());
     }
 
@@ -45,7 +41,6 @@ public class MainTest {
     public void test4(){
         Main main = new Main();
 
-       // main.methodToTest();
         Assert.assertEquals("yrrehc", main.reverseString("cherry").toString());
     }
 
@@ -53,7 +48,6 @@ public class MainTest {
     public void test5(){
         Main main = new Main();
 
-       // main.methodToTest();
         Assert.assertEquals("123321", main.reverseString("123321").toString());
     }
     
@@ -61,7 +55,6 @@ public class MainTest {
     public void test6(){
         Main main = new Main();
 
-       // main.methodToTest();
         Assert.assertEquals("racecar", main.reverseString("racecar").toString());
     }
     
@@ -69,7 +62,6 @@ public class MainTest {
     public void test7(){
         Main main = new Main();
 
-       // main.methodToTest();
         Assert.assertEquals(" ", main.reverseString(" ").toString());
     }
     
@@ -77,7 +69,6 @@ public class MainTest {
     public void test8(){
         Main main = new Main();
 
-       // main.methodToTest();
         Assert.assertEquals("-!@#542", main.reverseString("245#@!-").toString());
     } 
 
@@ -85,7 +76,6 @@ public class MainTest {
     public void test9(){
         Main main = new Main();
 
-       // main.methodToTest();
         Assert.assertEquals("!eyb yako ,nwonknu si eman ym iH", main.reverseString("Hi my name is unknown, okay bye!").toString());
     } 
 }
