@@ -1,6 +1,6 @@
 package src.proj;
 
-class Queue<T> {
+public class Queue<T> {
     // A reference to the front and rear of the queue making it generic for reusability
     // and flexibility
     private Node<T> front;

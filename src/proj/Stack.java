@@ -1,6 +1,6 @@
 package src.proj;
 
-class Stack<T> {
+public class Stack<T> {
    // A reference to the top of the stack making it generic for reusability
    // and flexibility
    private Node<T> top;
