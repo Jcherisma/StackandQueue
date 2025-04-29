@@ -288,5 +288,4 @@ public class MainTest {
          Assert.assertEquals(3, customerQueue.size());
          Assert.assertEquals(customeList.get(2).getName(), customerQueue.peek().getName());
     } 
-    
 }
